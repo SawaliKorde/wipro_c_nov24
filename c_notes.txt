@@ -1,0 +1,43 @@
+Git Notes
+
+Create GIT account
+create new repo 
+create personal access token(PAT)
+install git
+ 
+use the below command to check if git is available/installed
+git --version
+
+https://github.com/SawaliKorde/wipro_c_nov24.git
+
+the below is the repo URL (domain-name/username/repo-name)
+https://github.com/SawaliKorde/wipro_c_nov24
+
+template command to sync remote repo to local repo
+ git clone https://PAT@github.com/SawaliKorde/wipro_c_nov24
+
+to download any local repo
+git clone https://github.com/SawaliKorde/wipro_c_nov24
+
+to check the current status use below command
+git status
+
+to make configuration while syncing remote repo with local repo(one time command)
+git config --global user.name "SawaliKorde"
+
+git config --global user.email "sawalikorde200@gmail.com"
+
+to stage the changes from pwd use the below command. The . in the command represents current folder( present working directory).
+this command marks all the files that needs to be updated in the remote repo.
+git add .
+
+this command creates the object that need to be moved from the local machine to the cloud (server).
+git commit -m "releavant message"
+
+this command moves the object from local machine to the git server. However the changes in the remote repo will be first updated to the local repo by running the command: git pull origin main
+git push origin main
+
+
+git pull origin main
+
+
