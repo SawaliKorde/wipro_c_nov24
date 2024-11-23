@@ -1,0 +1,9 @@
+day 2 
+operators
+operator precedence and associativity
+* - highest precedence
+& will work like logical only when inputs are boolean
+
+ox5d - to decimal, octal, hexadecimal
+
+statements in order -if else
