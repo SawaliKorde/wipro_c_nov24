@@ -7,3 +7,6 @@ operator precedence and associativity
 ox5d - to decimal, octal, hexadecimal
 
 statements in order -if else
+
+all memory allocation happens at run time only
+pre-processing - macros which starts with #
