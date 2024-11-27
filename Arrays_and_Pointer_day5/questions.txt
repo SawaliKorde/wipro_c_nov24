@@ -1,0 +1,5 @@
+Problems on Arrays:
+1. Find the smallest and biggest elements of the array of size N which is given by user (array is of type double)
+2. Find the frequesvy of an element of user choice in an raay of size N which is also given user (array is of type int)
+3. Reverse an array of size N of type float
+4. Remove duplicate elements in an array. After removal, the position of the removed elements must not be empty.
