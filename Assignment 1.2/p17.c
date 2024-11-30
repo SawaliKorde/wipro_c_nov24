@@ -3,7 +3,7 @@
 #include<ctype.h>
 int main(){
     char input ='\0';
-    printf("Enter input to check if character alphabet or not: ");
+    printf("Enter input to check if alphanumeric or not: ");
     scanf("%c", &input);
     if(isalnum(input)){
         printf("'%c' is an alphanumeric \n",input);
