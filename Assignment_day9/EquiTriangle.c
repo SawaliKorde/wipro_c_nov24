@@ -1,11 +1,8 @@
-#include <stdio.h>
+#include<stdio.h>
+#include "EquiTriangle.h"
 
-int main() {
-    int n;  // Height of the triangle
 
-    printf("Enter the number of rows for the triangle: ");
-    scanf("%d", &n);
-
+void equilateralTriangle(n){
     for (int i = 1; i <= n; i++) {
         
         for (int j = 1; j <= n - i; j++) {
@@ -16,6 +13,4 @@ int main() {
         }        
         printf("\n");
     }
-
-    return 0;
 }

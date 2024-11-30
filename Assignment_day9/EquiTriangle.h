@@ -1,0 +1,1 @@
+void equilateralTriangle(int n);
