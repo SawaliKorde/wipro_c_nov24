@@ -27,14 +27,14 @@ int pop(double *stk, int sp)
     return sp;
 }
 
-void top(const double *stack, int sp)
+void top(const double *stk, int sp)
 {
     if (isEmpty(sp))
     {
         puts("Stack is empty");
         return;
     }
-    printf("Top element = %.2lf \n", stack[sp]);
+    printf("Top element = %.2lf \n", stk[sp]);
 }
 
 void displayStack(const double *ptr, int sp)
